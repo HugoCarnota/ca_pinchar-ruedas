@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'CAÑOTA #8443'
 
-description 'Control de NPC'
+description 'Script para pinchar las ruedas de vehiculos con una nabaja'
 
 client_scripts {
     'main.lua'
