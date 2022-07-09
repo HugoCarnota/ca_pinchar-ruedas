@@ -59,7 +59,7 @@ end)
 
 RegisterNetEvent("SlashTires:SlashClientTire")
 AddEventHandler("SlashTires:SlashClientTire", function(tireIndex)
-	TriggerEvent("chatMessage", "^1A player is trying to slash your tire")
+	TriggerEvent("chatMessage", "^Un Jugador esta intentando pinchar tu rueda")
 	local player = PlayerId()
 	local plyPed = GetPlayerPed(player)
 	local vehicle = GetVehiclePedIsIn(plyPed, false)
